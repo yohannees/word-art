@@ -1,14 +1,17 @@
+
 h1
 {
+    color: aliceblue;
     font-size: 3em;
     letter-spacing: 1px;
     font-weight: bold;
     font-family: sans-serif;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: text 7.5s linear infinite;
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color: red;
+    animation: text 1s linear infinite;
 }
+
 @keyframes text
     {
     from{background-position:0% 50%}
